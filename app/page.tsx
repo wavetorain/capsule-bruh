@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { createClient } from '@supabase/supabase-js'
 
-// --- Supabase Config ---
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
@@ -11,8 +11,7 @@ const supabase = createClient(
 const MY_ID = "1264833597240643605"
 const PARTNER_ID = "1208020426333102131"
 
-// --- UI Components ---
-// Moved outside to prevent re-creation on every render
+
 const StatusCard = ({ 
   user, 
   id, 
@@ -89,20 +88,16 @@ const StatusCard = ({
 }
 
 export default function MegaCapsule() {
-  // --- Auth & Navigation ---
+
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [passwordInput, setPasswordInput] = useState("")
   const [passError, setPassError] = useState(false)
   const [view, setView] = useState('Home')
-
-  // --- Content Data ---
   const [messages, setMessages] = useState<any[]>([])
   const [voicemails, setVoicemails] = useState<any[]>([])
   const [folders, setFolders] = useState<any[]>([])
   const [currentFolder, setCurrentFolder] = useState<any>(null)
   const [folderImages, setFolderImages] = useState<any[]>([])
-  
-  // --- UI & Interaction ---
   const [input, setInput] = useState("")
   const [newFolderName, setNewFolderName] = useState("")
   const [timeSince, setTimeSince] = useState("")
@@ -112,11 +107,8 @@ export default function MegaCapsule() {
   const [isRecording, setIsRecording] = useState(false)
   const [expandedId, setExpandedId] = useState<string | null>(null)
   const [selectedImage, setSelectedImage] = useState<any>(null)
-
   const mediaRecorder = useRef<MediaRecorder | null>(null)
   const audioChunks = useRef<Blob[]>([])
-
-  // --- Login ---
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
     if (passwordInput.toLowerCase() === "maurain") {
@@ -127,7 +119,6 @@ export default function MegaCapsule() {
     }
   }
 
-  // --- Data Sync ---
   const refreshData = async () => {
     const { data: msg } = await supabase.from('posts').select('*').order('created_at', { ascending: false })
     if (msg) setMessages(msg)
@@ -144,7 +135,6 @@ export default function MegaCapsule() {
     if (data) setFolderImages(data)
   }
 
-  // --- Lanyard Status ---
   useEffect(() => {
     if (!isAuthenticated) return
     const fetchStatus = async () => {
@@ -161,7 +151,6 @@ export default function MegaCapsule() {
     return () => clearInterval(interval)
   }, [isAuthenticated])
 
-  // --- Relationship Timer ---
   useEffect(() => {
     const startDate = new Date("January 28, 2026 00:00:00").getTime()
     const interval = setInterval(() => {
@@ -173,7 +162,6 @@ export default function MegaCapsule() {
 
   useEffect(() => { if (isAuthenticated) refreshData() }, [isAuthenticated])
 
-  // --- Folder & Media Actions ---
   const createFolder = async () => {
     if (!newFolderName) return
     await supabase.from('folders').insert([{ name: newFolderName }])
@@ -255,7 +243,7 @@ export default function MegaCapsule() {
   return (
     <main className="min-h-screen relative text-[#8a5d68] bg-[#f3d0d7]" onClick={() => setExpandedId(null)}>
       
-      {/* --- Image Lightbox --- */}
+
       {selectedImage && (
         <div className="fixed inset-0 z-[100] bg-[#f3d0d7]/90 backdrop-blur-xl flex items-center justify-center p-4 animate-in fade-in zoom-in duration-300" onClick={() => setSelectedImage(null)}>
           <div className="max-w-4xl w-full flex flex-col items-center gap-6" onClick={(e) => e.stopPropagation()}>
@@ -274,7 +262,6 @@ export default function MegaCapsule() {
         </div>
       )}
 
-      {/* Menu & Nav */}
       <button onClick={() => setIsMenuOpen(true)} className="fixed top-6 left-6 z-50 text-[#cc8292] bg-white/60 p-3 rounded-full shadow-md border border-white hover:scale-110 active:scale-90 transition-all">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
       </button>
@@ -298,8 +285,7 @@ export default function MegaCapsule() {
       </div>
 
       <div className="max-w-4xl mx-auto p-4 sm:p-6 pt-24 pb-12 relative z-10">
-        
-        {/* VIEW: HOME */}
+
         {view === 'Home' && (
           <div className="max-w-2xl mx-auto space-y-8 sm:space-y-10">
             <div className="text-center py-12 sm:py-20 bg-white/60 rounded-[3rem] sm:rounded-[4rem] border border-white shadow-sm"><div className="text-3xl sm:text-7xl font-black text-[#cc8292] italic font-mono tracking-tighter tabular-nums break-words px-4">{timeSince}</div></div>
@@ -317,7 +303,6 @@ export default function MegaCapsule() {
           </div>
         )}
 
-        {/* VIEW: GALLERY */}
         {view === 'Gallery' && (
           <div className="space-y-10 animate-in fade-in duration-700">
             {!currentFolder ? (
@@ -357,7 +342,6 @@ export default function MegaCapsule() {
           </div>
         )}
 
-        {/* VIEW: VOICEMAILS */}
         {view === 'Voicemails' && (
           <div className="max-w-2xl mx-auto space-y-10 animate-in fade-in duration-700">
             <div className="bg-white/70 p-10 sm:p-12 rounded-[3rem] sm:rounded-[4rem] border border-white shadow-sm text-center">
