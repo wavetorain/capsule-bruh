@@ -1,0 +1,134 @@
+[00:00:03.441] Server  LOG     ✓ Ready in 2.7s
+[00:00:16.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:17.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:19.983] Server  LOG     ○ Compiling /_not-found/page ...
+[00:06:20.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:48.335] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:48.523] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:49.865] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:50.020] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:50.218] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:50.484] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:50.747] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:50.935] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:10:51.047] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:10:57.604] Server  LOG     ✓ Compiled in 57ms
+[00:11:10.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:15.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:26.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:49.089] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:49.269] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:49.492] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:49.668] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:49.867] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:50.046] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:50.318] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:50.535] Server  ERROR   ⨯ Error: The default export is not a React Component in "/page"
+[00:12:50.658] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:12:58.840] Browser ERROR   ./app/page.tsx:1:8
+Parsing ecmascript source code failed
+> 1 | diff --git a/f:\vscode\capsule\our-capsule/app/page.tsx b/f:\vscode\capsule\our-capsule/app/page.tsx
+    |        ^^^
+  2 | deleted file mode 100644
+  3 | --- a/f:\vscode\capsule\our-capsule/app/page.tsx
+  4 | +++ /dev/null
+
+Expected ';', '}' or <eof>
+[00:12:59.644] Server  ERROR   ⨯ ./app/page.tsx:1:8
+Parsing ecmascript source code failed
+> 1 | diff --git a/f:\vscode\capsule\our-capsule/app/page.tsx b/f:\vscode\capsule\our-capsule/app/page.tsx
+    |        ^^^
+  2 | deleted file mode 100644
+  3 | --- a/f:\vscode\capsule\our-capsule/app/page.tsx
+  4 | +++ /dev/null
+
+Expected ';', '}' or <eof>
+
+
+[00:12:59.895] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:8
+Parsing ecmascript source code failed
+> 1 | diff --git a/f:\vscode\capsule\our-capsule/app/page.tsx b/f:\vscode\capsule\our-capsule/app/page.tsx
+    |        ^^^
+  2 | deleted file mode 100644
+  3 | --- a/f:\vscode\capsule\our-capsule/app/page.tsx
+  4 | +++ /dev/null
+
+Expected ';', '}' or <eof>
+
+
+[00:13:00.038] Browser ERROR   ./app/page.tsx:1:8
+Parsing ecmascript source code failed
+> 1 | diff --git a/f:\vscode\capsule\our-capsule/app/page.tsx b/f:\vscode\capsule\our-capsule/app/page.tsx
+    |        ^^^
+  2 | deleted file mode 100644
+  3 | --- a/f:\vscode\capsule\our-capsule/app/page.tsx
+  4 | +++ /dev/null
+
+Expected ';', '}' or <eof>
+[00:13:00.038] Browser ERROR   ./app/page.tsx:1:8
+Parsing ecmascript source code failed
+> 1 | diff --git a/f:\vscode\capsule\our-capsule/app/page.tsx b/f:\vscode\capsule\our-capsule/app/page.tsx
+    |        ^^^
+  2 | deleted file mode 100644
+  3 | --- a/f:\vscode\capsule\our-capsule/app/page.tsx
+  4 | +++ /dev/null
+
+Expected ';', '}' or <eof>
+[00:14:04.550] Server  LOG     ✓ Compiled in 33ms
+[00:14:04.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:11.656] Server  LOG     ✓ Compiled in 39ms
+[00:16:11.844] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:53:04.441Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:17:00.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:06.147] Server  LOG     ✓ Compiled in 26ms
+[00:17:06.835] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:53:58.928Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:17:07.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:25.338] Server  LOG     ✓ Compiled in 42ms
+[00:17:25.836] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:54:18.117Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:17:27.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:30.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:53.760] Server  LOG     ✓ Compiled in 37ms
+[00:17:53.837] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:54:46.541Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:18:02.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:27.941] Server  LOG     ✓ Compiled in 40ms
+[00:18:28.845] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:55:20.723Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:18:30.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:32.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:40.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:51.681] Server  LOG     ✓ Compiled in 54ms
+[00:19:51.840] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:56:44.468Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:19:54.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:20.350] Server  LOG     ✓ Compiled in 40ms
+[00:22:20.427] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T21:59:13.130Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:22:21.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:57.268] Server  LOG     ✓ Compiled in 59ms
+[00:24:57.844] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:01:50.048Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:24:58.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:16.738] Server  LOG     ✓ Compiled in 41ms
+[00:28:16.847] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:05:09.520Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:28:20.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:41.134] Server  LOG     ✓ Compiled in 24ms
+[00:32:41.838] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:09:33.919Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:32:46.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:21.228] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:55.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:05.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:46.072] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:14.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:17.523] Server  LOG     ✓ Compiled in 44ms
+[00:46:17.839] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:23:10.305Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:48:29.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:38.514] Server  LOG     ✓ Compiled in 45ms
+[00:48:38.786] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:25:31.311Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:48:50.606] Server  LOG     ✓ Compiled in 24ms
+[00:48:50.837] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:2 (2.95.3) 2026-02-14T22:25:43.387Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:49:09.338] Server  LOG     ✓ Compiled in 38ms
+[00:49:09.591] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:3 (2.95.3) 2026-02-14T22:26:02.121Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[00:50:40.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:20.148] Server  LOG     ✓ Compiled in 50ms
+[00:57:20.836] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:34:12.929Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[01:04:01.293] Server  LOG     ✓ Compiled in 26ms
+[01:04:01.837] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:2 (2.95.3) 2026-02-14T22:40:54.083Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[01:07:07.814] Server  LOG     ✓ Compiled in 27ms
+[01:07:08.723] Browser WARN    GoTrueClient@sb-zqhyciunkxljrxjbdfxa-auth-token:1 (2.95.3) 2026-02-14T22:44:00.621Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+[01:16:25.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:53.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
